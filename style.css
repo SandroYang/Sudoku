@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: lightblue;
+}
+
+hr {
+    width: 450px;
+}
+
+#errorCounter {
+    color: red;
+}
+
+.sudokuBox {
+    margin: 0 50px 50px 650px;
+    width: 50%;
+}
+
+.sudoku {
+    display: grid;
+    width: max-content;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.1rem;
+    background-color: black;
+}
+
+.sudoku__box {
+    display: grid;
+    width: max-content;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.sudoku input {
+    text-align: center;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+}
+
+.number {
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+    margin: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-grid;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+}
+
+.number-selected {
+    background-color: lightgray;
+}
+
+.cell-selected {
+    background-color: lightgray;
+}
