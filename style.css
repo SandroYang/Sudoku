@@ -13,7 +13,7 @@ hr {
 }
 
 .sudokuBox {
-    margin: 0 50px 50px 650px;
+    margin: 50px auto;
     width: 50%;
 }
 
