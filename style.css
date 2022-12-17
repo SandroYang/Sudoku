@@ -14,8 +14,8 @@ hr {
 }
 
 .sudokuBox {
-    width: 50%;
-    margin-left: 500px;
+    width: max-content;
+    margin: auto;
 }
 
 .sudoku {
